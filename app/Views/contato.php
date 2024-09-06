@@ -1,26 +1,17 @@
 <?php $this->extend('template/template') ?>
 
+<?php $this->section("header")?>
 
+<?php $this->endSection() ?>
+<p>nada</p>
 <?php $this->section("contatos")?>
-<h2 id="produtos">CONTATOS:</h2>
-<section class="contact-section">
-    <div class="contact-grid">
-        <div class="contact-card">
-            <img src="img/icons8-whatsapp.gif" alt="Pastel" class="product-image">
-            
-        </div>
-        <div class="contact-card">
-            <img src="img/instagram.png" alt="Pastel" class="product-image">
-            
-        </div>
-        <div class="contact-card">
-            <img src="img/ifood.png" alt="Pastel" class="product-image">
-           
-        </div>
-        <div class="contact-card">
-            <img src="img/facebook.png" alt="Pastel" class="product-image">
 
-        </div>
+<section class="contato">
+    <div class="sideimage">
+        <img src="img/file.png" alt="">
+    </div>
+    <div class="entraremcontato">
+        <p>Entre em contato</p>
     </div>
 </section>
 
