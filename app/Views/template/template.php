@@ -13,8 +13,8 @@
     <header>
     <div class="whatsapp-button">
         <?php
-    $telefone = '5515997021706  ';
-    $mensagem = 'Olá mundo';
+    $telefone = '5515997021706';
+    $mensagem = 'Quanto está o pastel?';
     $link = 'https://wa.me/' . $telefone . '?text=' . urlencode($mensagem);
     ?>
     <a href="<?= $link ?>" target="_blank"><img src="img/icons8-whatsapp.gif"></a>
