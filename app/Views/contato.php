@@ -2,26 +2,30 @@
 
 
 <?php $this->section("contatos")?>
-<h2 id="produtos">CONTATOS:</h2>
-<section class="contact-section">
-    <div class="contact-grid">
-        <div class="contact-card">
-            <img src="img/icons8-whatsapp.gif" alt="Pastel" class="product-image">
-            
-        </div>
-        <div class="contact-card">
-            <img src="img/instagram.png" alt="Pastel" class="product-image">
-            
-        </div>
-        <div class="contact-card">
-            <img src="img/ifood.png" alt="Pastel" class="product-image">
-           
-        </div>
-        <div class="contact-card">
-            <img src="img/facebook.png" alt="Pastel" class="product-image">
 
-        </div>
+
+<p id="entreemcontato">Entre em Contato</p>
+<section class="contatodireto">
+    <div class="sideimage">
+    <img src="img/file.png" alt="">
     </div>
+    <div class="formulario">
+        <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome">
+        <label for="email">E-mail</label>
+        <input type="email" name="email">
+        <label for="mensagemetc">Digite sua Mensagem:</label>
+        <textarea name="mensagemetc" id="mensagemetc"></textarea>
+
+        <input type="button" value="Enviar">
+
+
+        </form>
+    </div>
+
+
 </section>
+
 
 <?php $this->endSection() ?>    

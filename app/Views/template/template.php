@@ -12,8 +12,13 @@
 
     <header>
     <div class="whatsapp-button">
-    <a href="https://api.whatsapp.com/send?5515997021706" target="_blank">
-        <img src="img/icons8-whatsapp.gif" alt="WhatsApp">
+        <?php
+    $telefone = '5515997021706  ';
+    $mensagem = 'Olá mundo';
+    $link = 'https://wa.me/' . $telefone . '?text=' . urlencode($mensagem);
+    ?>
+    <a href="<?= $link ?>" target="_blank"><img src="img/icons8-whatsapp.gif"></a>
+
     </a>
 </div>  
         <div class="header-container">
