@@ -12,7 +12,11 @@
 <section class="contatodireto">
     <div class="sideimage">
     <img src="img/file.png" alt="">
+<<<<<<< HEAD
 </div>
+=======
+    </div>
+>>>>>>> 915adf13bb9082d1d4c97e102fcb9359a67a229c
     <div class="formulario">
         <form action="">
         <label for="nome">Nome</label>
@@ -22,7 +26,7 @@
         <label for="mensagemetc">Digite sua Mensagem:</label>
         <textarea name="mensagemetc" id="mensagemetc"></textarea>
 
-        <input type="button" value="Enviar">
+        <input type="submit" value="Enviar">
 
 
         </form>
