@@ -12,15 +12,7 @@
 <section class="contatodireto">
     <div class="sideimage">
     <img src="img/file.png" alt="">
-=======
-<section class="contato">
-    <div class="sideimage">
-        <img src="img/file.png" alt="">
-    </div>
-    <div class="entraremcontato">
-        <p>Entre em contato</p>
->>>>>>> 65e35cf662924524d29d9d2aefc2af4dc9aeda68
-    </div>
+</div>
     <div class="formulario">
         <form action="">
         <label for="nome">Nome</label>
